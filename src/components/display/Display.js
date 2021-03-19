@@ -1,10 +1,11 @@
 import React from 'react'
+import { StyledDisplay } from "./StyledDisplay";
 
-const Display = () => {
+const Display = ({gameOver, text}) => {
     return (
-        <div>
-            <p>text</p>
-        </div>
+        <StyledDisplay gameOver={gameOver}>
+            {text}
+        </StyledDisplay>
     )
 }
 
