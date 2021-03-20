@@ -7,8 +7,8 @@ export const useGameStatus = rowsCleared => {
 
   
   const calcScore = useCallback(() => {
-    const linePoints = [40, 100, 300, 1200];
     // We have score
+    const linePoints = [40, 100, 300, 1200];
     if (rowsCleared > 0) {
       // This is how original Tetris score is calculated
       setScore(prev => prev + linePoints[rowsCleared - 1] * (level + 1));
