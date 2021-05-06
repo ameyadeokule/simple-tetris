@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACI,QACJ,CAEA,WACI,mBAAoB,CACpB,6EACJ","file":"main.0979e270.chunk.css","sourcesContent":["body {\n    margin: 0;\n}\n\n@font-face {\n    font-family: 'Pixel';\n    src: url('font/Pixel-LCD-7.woff') format('woff');\n}\n"]}
